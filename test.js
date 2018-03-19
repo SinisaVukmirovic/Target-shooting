@@ -9,9 +9,17 @@ target.addEventListener('click', function(e) {
 
 	var noAmmo = target.getElementsByClassName('bullet');
 
-	if (noAmmo.length == 4) {
-		shot3.style.display = 'block';
-	}
+	if (noAmmo.length == 19) {
+		shot20.style.opacity = '1';
+	};
+
+	if (noAmmo.length == 9) {
+		shot10.style.opacity = '1';
+	};
+
+	if (noAmmo.length == 2) {
+		shot3.style.opacity = '1';
+	};
 
 	var x = e.clientX;
 	var y = e.clientY;
