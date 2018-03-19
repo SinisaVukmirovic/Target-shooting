@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #353535;
+	cursor: crosshair;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	position: relative;
+}
+
+.target-area {
+	width: 600px;
+	height: 600px;
+	border: 50px solid red;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.face {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	border: 50px solid red;
+	background-color: white;
+}
+
+.bullet {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.face img {
+	width: 200px;
+	height: auto;
+	margin-left: 50px; 
+}
+
+.react {
+	position: absolute;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	display: none;
+	position: relative;
+	color: white;
+	margin: 20px 50px;
+	font-size: 40px;
+}
+
+.shots3 {
+	right: 150px;
+	top: -150px;
+}
+
+/*.shots10 {
+	right: -100px;
+	top: -50px;
+}
+
+.shots20 {
+	right: 50px;
+	top: 100px;
+}*/
