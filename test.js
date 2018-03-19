@@ -3,6 +3,7 @@ var target = document.querySelector('.target-area');
 var shot3 = document.querySelector('.shots3');
 var shot10 = document.querySelector('.shots10');
 var shot20 = document.querySelector('.shots20');
+var busi = document.querySelector('#busi');
 
 
 target.addEventListener('click', function(e) {
@@ -11,6 +12,7 @@ target.addEventListener('click', function(e) {
 
 	if (noAmmo.length == 19) {
 		shot20.style.opacity = '1';
+		busi.style.left = '50px';
 	};
 
 	if (noAmmo.length == 9) {
